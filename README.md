@@ -187,3 +187,6 @@ class UserController {
 }
 
 export default new UserController();
+
+
+## ATENCAO: Aqui contem configuracoes do banco para MySQL, mas o projeto foi mudado para Sqlite.
