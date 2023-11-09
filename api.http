@@ -1,0 +1,28 @@
+### Create
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "email": "pastor@gmail.com",
+  "nome": "Ricardo",
+  "idade": 40
+}
+
+### FindAll
+GET http://localhost:3000/users
+
+
+### FindOne
+GET http://localhost:3000/users/2
+
+
+### Update
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "nome": "Nathan"
+}
+
+### Delete 
+DELETE http://localhost:3000/users/2
